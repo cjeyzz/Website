@@ -16,7 +16,7 @@
     <div class="gallery">
 
         <div class="card">
-            <img src="images/honda-bay.jpg" alt="Honda Bay">
+            <img src="paste here yung pic" alt="">
             <h2>Honda Bay</h2>
             <p>
                 A beautiful bay known for its island-hopping
@@ -27,7 +27,7 @@
         </div>
 
         <div class="card">
-            <img src="images/bakers-hill.jpg" alt="Baker's Hill">
+            <img src="images/bakers-hill.jpg" alt="">
             <h2>Baker's Hill</h2>
             <p>
                 A popular recreational park known for its
@@ -38,7 +38,7 @@
         </div>
 
         <div class="card">
-            <img src="images/balayong.jpg" alt="Balayong">
+            <img src="images/balayong.jpg" alt="">
             <h2>Balayong</h2>
             <p>
                 A scenic attraction known for its beautiful
@@ -49,7 +49,7 @@
         </div>
 
         <div class="card">
-            <img src="images/plaza-cuartel.jpg" alt="Plaza Cuartel">
+            <img src="images/plaza-cuartel.jpg" alt="">
             <h2>Plaza Cuartel</h2>
             <p>
                 A historic site in Puerto Princesa that
