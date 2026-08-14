@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tourist Attraction Gallery</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+        }
+
+        .card img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 15px;
+        }
+
+        .card h2 {
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        .card button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Tablet */
+        @media (max-width: 900px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Phone */
+        @media (max-width: 600px) {
+            body {
+                padding: 15px;
+            }
+
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+
+            .card img {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Tourist Attraction Gallery</h1>
+
+    <div class="gallery">
+
+        <!-- Honda Bay -->
+        <div class="card">
+            <img src="images/honda-bay.jpg" alt="Honda Bay">
+            <h2>Honda Bay</h2>
+            <p>
+                A beautiful bay known for its island-hopping
+                activities, clear waters, and scenic islands.
+            </p>
+            <p><strong>Location:</strong> Puerto Princesa, Palawan</p>
+            <button>View Details</button>
+        </div>
+
+        <!-- Baker's Hill -->
+        <div class="card">
+            <img src="images/bakers-hill.jpg" alt="Baker's Hill">
+            <h2>Baker's Hill</h2>
+            <p>
+                A popular recreational park known for its
+                gardens, colorful attractions, and baked treats.
+            </p>
+            <p><strong>Location:</strong> Puerto Princesa, Palawan</p>
+            <button>View Details</button>
+        </div>
+
+        <!-- Balayong -->
+        <div class="card">
+            <img src="images/balayong.jpg" alt="Balayong">
+            <h2>Balayong</h2>
+            <p>
+                A scenic attraction known for its beautiful
+                balayong trees and relaxing surroundings.
+            </p>
+            <p><strong>Location:</strong> Sta. Monica, Palawan</p>
+            <button>View Details</button>
+        </div>
+
+        <!-- Plaza Cuartel -->
+        <div class="card">
+            <img src="images/plaza-cuartel.jpg" alt="Plaza Cuartel">
+            <h2>Plaza Cuartel</h2>
+            <p>
+                A historic site in Puerto Princesa that
+                preserves an important part of the city's history.
+            </p>
+            <p><strong>Location:</strong> Puerto Princesa, Palawan</p>
+            <button>View Details</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
