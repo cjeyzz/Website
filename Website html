@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist</title>
+</head>
+<body>
+    <a href="index.css"></a>
+    <h1>Tourist attraction</h1>
+    <div class="gallery">
+        <div class="card">
+            <img src="images/elnido.jpg" alt="Elnido" width="200" height="200">
+            <h2>El Nido</h2>
+            <p>
+                El nido is the best
+            </p>
+            <p><strong>Location:</strong> El Ndio, Palawan</p>
+            <button>View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/6/2022/12/22224603/boracay-travel-guide-philippines-beach-1350x900.jpg" width="200" height="200" alt="Boracay">
+            <h2>Boracay</h2>
+            <p>This is boracay</p>
+            <p><strong>Location:</strong> Boracay, idk</p>
+            <button>View Details</button>
+            
+        </div>
+        <div class="card">
+            <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/06/90/e4/8e.jpg" witdh="200" height="200" alt="Bohol">
+            <h2>Puerto Princesa</h2>
+            <p>
+                This is Puerto Princesa
+            </p>
+            <p><strong>Location:</strong> Puerto Princesa, Palawan</p>
+            <button>View Details</button>
+
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
