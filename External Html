@@ -16,7 +16,7 @@
     <div class="gallery">
 
         <div class="card">
-            <img src="paste here yung pic" alt="same with alt">
+            <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWlPivBCPKaA0EsZD43_kVrqWqULnWGLRx3I0_Hvg-cNS6zYTP-iFhasa6O9D4lXoYXS6bvrhT_-4_vtJC6zvhg2qW96NP8aVUHMQgUtn659gW7OQZXOfUM99HtJUPX0jfvMZw6alw=s680-w680-h510" alt="same with alt">
             <h2>Honda Bay</h2>
             <p>
                 A beautiful bay known for its island-hopping
@@ -27,7 +27,7 @@
         </div>
 
         <div class="card">
-            <img src="images/bakers-hill.jpg" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhFCuvOj6xbfNGCJwzsisVtHRMTyOCkC-sQgG1pUij6SyLW7BwwGpcYr1-&s=10alt="">
             <h2>Baker's Hill</h2>
             <p>
                 A popular recreational park known for its
@@ -38,7 +38,7 @@
         </div>
 
         <div class="card">
-            <img src="images/balayong.jpg" alt="">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyB8QCXoWd75pRebyo9JW-KM0G1Km_-LWG8Jf24hN9zrOP3pfXvwU0-LoM&s=10" alt="">
             <h2>Balayong</h2>
             <p>
                 A scenic attraction known for its beautiful
@@ -49,13 +49,33 @@
         </div>
 
         <div class="card">
-            <img src="images/plaza-cuartel.jpg" alt="">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/11/2b/c4/e1/main-entrance-to-plaza.jpg?w=1200&h=-1&s=1" alt="">
             <h2>Plaza Cuartel</h2>
             <p>
                 A historic site in Puerto Princesa that
                 preserves an important part of the city's history.
             </p>
             <p><strong>Location:</strong> Puerto Princesa, Palawan</p>
+            <button>View Details</button>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpRUcC-Z09VejWfK_UIyPUg2qCf0UQWxsU2HQsJz55kw8JOJkO5a1KJR4&s=10" alt="">
+            <h2>Mitra's Ranch</h2>
+            <p>
+                Picturesque hilltop ranch offering sweeping city & sea views, plus zip-line rides & picnicking.
+            </p>
+            <p><strong>Location:</strong> Sta. Monica, Palawan</p>
+            <button>View Details</button>
+        </div>
+
+        <div class="card">
+            <h2>Underground River</h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD5eaPuHTaYoBqlURZyvhAI1INxIDtE0GY8SD40hVO803nYm6TRFZgKCYl&s=10" alt="">
+            <p>
+                The Puerto Princesa Subterranean River National Park in Palawan features an 8.2-kilometer navigable underground river flowing through a stunning limestone karst cave system directly into the sea. 
+            </p>
+            <p><strong>Location:</strong> Sta. Monica, Palawan</p>
             <button>View Details</button>
         </div>
 
